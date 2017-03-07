@@ -1,6 +1,9 @@
 {
 	"checkin": {
 		"order": 0,
+        "display-text": {
+            "zh-TW": "報到"
+        },
 		"available_time": "2017/03/18 07:30 +0800",
 		"expire_time": "2017/03/18 17:00 +0800",
 		"countdown": 0,
@@ -21,6 +24,9 @@
 	},
 	"order_goods": {
 		"order": 1,
+        "display-text": {
+            "zh-TW": "訂購物資"
+        },
 		"available_time": "2017/03/18 07:30 +0800",
 		"expire_time": "2017/03/18 17:00 +0800",
 		"countdown": 60,
@@ -38,6 +44,9 @@
 	},
 	"shirt_size":{
 		"order": 2,
+        "display-text": {
+            "zh-TW": "工人衣服 Size"
+        },
 		"available_time": "2017/03/18 07:30 +0800",
 		"expire_time": "2017/03/18 17:00 +0800",
 		"countdown": 30,
@@ -45,6 +54,9 @@
 	},
 	"radios": {
 		"order": 3,
+        "display-text": {
+            "zh-TW": "無線電領取狀況"
+        },
 		"available_time": "2017/03/18 07:30 +0800",
 		"expire_time": "2017/03/18 17:00 +0800",
 		"countdown": 30,
