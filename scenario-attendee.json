@@ -15,7 +15,7 @@
         "unlock": true
       },
       {
-        "id": "day1lunch",
+        "id": "lunch",
         "disable_time": "2017/03/18 10:30 +0800",
         "disable_message": "Too late to check-in",
         "staff_query_disable_message": "Please use your badge",
