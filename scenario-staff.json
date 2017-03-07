@@ -1,71 +1,75 @@
 {
-	"checkin": {
-		"order": 0,
-        "display-text": {
-            "zh-TW": "報到"
-        },
-		"available_time": "2017/03/18 07:30 +0800",
-		"expire_time": "2017/03/18 17:00 +0800",
-		"countdown": 0,
-		"related_scenario": [
-			{
-				"id": "shirt_size",
-				"unlock": true
-			},
-			{
-				"id": "radios",
-				"unlock": true
-			}
-		]
-	},
-	"order_goods": {
-		"order": 1,
-        "display-text": {
-            "zh-TW": "訂購物資"
-        },
-		"available_time": "2017/03/18 07:30 +0800",
-		"expire_time": "2017/03/18 17:00 +0800",
-		"countdown": 60,
-        "not_lock_rule": {
-            "row_name": "有訂購",
-            "value_match": "Y",
-            "not_match_disable_message": "很抱歉，你沒有預購。可以現場買OwO"
-        },
-		"attr": [
-			{
-				"row_name": "order_shirt",
-				"attr_name": "order_shirt"
-			},
-			{
-				"row_name": "order_pillow",
-				"attr_name": "order_pillow"
-			}
-		]
-	},
-	"shirt_size":{
-		"order": 2,
-        "display-text": {
-            "zh-TW": "工人衣服 Size"
-        },
-		"available_time": "2017/03/18 07:30 +0800",
-		"expire_time": "2017/03/18 17:00 +0800",
-		"countdown": 30,
-		"lock_message": "Haven't Check-in",
-        "attr": [
-            {
-                "row_name": "shirt_size",
-                "attr_name": "shirt_size"
-            }
-        ]
-	},
-	"radios": {
-		"order": 3,
-        "display-text": {
-            "zh-TW": "無線電領取狀況"
-        },
-		"available_time": "2017/03/18 07:30 +0800",
-		"expire_time": "2017/03/18 17:00 +0800",
-		"countdown": 30,
-		"lock_message": "Haven't Check-in"
-	}
+  "checkin": {
+    "order": 0,
+    "display-text": {
+      "en-US": "報到",
+      "zh-TW": "報到"
+    },
+    "available_time": "2017/03/18 07:30 +0800",
+    "expire_time": "2017/03/18 17:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "shirt_size",
+        "unlock": true
+      },
+      {
+        "id": "radios",
+        "unlock": true
+      }
+    ]
+  },
+  "order_goods": {
+    "order": 1,
+    "display-text": {
+      "en-US": "預購物資",
+      "zh-TW": "預購物資"
+    },
+    "available_time": "2017/03/18 07:30 +0800",
+    "expire_time": "2017/03/18 17:00 +0800",
+    "countdown": 60,
+    "not_lock_rule": {
+      "row_name": "有訂購",
+      "value_match": "Y",
+      "not_match_disable_message": "很抱歉，你沒有預購。可以現場買OwO"
+    },
+    "attr": [
+      {
+        "row_name": "order_shirt",
+        "attr_name": "order_shirt"
+      },
+      {
+        "row_name": "order_pillow",
+        "attr_name": "order_pillow"
+      }
+    ]
+  },
+  "shirt_size": {
+    "order": 2,
+    "display-text": {
+      "en-US": "工作人員衣服",
+      "zh-TW": "工作人員衣服"
+    },
+    "available_time": "2017/03/18 07:30 +0800",
+    "expire_time": "2017/03/18 17:00 +0800",
+    "countdown": 30,
+    "lock_message": "Haven't Check-in",
+    "attr": [
+      {
+        "row_name": "shirt_size",
+        "attr_name": "shirt_size"
+      }
+    ]
+  },
+  "radios": {
+    "order": 3,
+    "display-text": {
+      "en-US": "無線電領取",
+      "zh-TW": "無線電領取"
+    },
+    "available_time": "2017/03/18 07:30 +0800",
+    "expire_time": "2017/03/18 17:00 +0800",
+    "countdown": 30,
+    "lock_message": "Haven't Check-in"
+  }
 }
