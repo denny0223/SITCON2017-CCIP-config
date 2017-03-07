@@ -33,7 +33,7 @@
     "available_time": "2017/03/18 08:30 +0800",
     "expire_time": "2017/03/18 17:00 +0800",
     "countdown": 30,
-    "lock_message": "Haven't Check-in",
+    "lock_message": "Haven't Check-in"
   },
   "lunch": {
     "order": 2,
