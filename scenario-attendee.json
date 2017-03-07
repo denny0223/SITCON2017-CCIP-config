@@ -1,0 +1,74 @@
+{
+  "checkin": {
+    "order": 0,
+    "display_text": {
+      "en-US": "Check-in",
+      "zh-TW": "報到"
+    },
+    "available_time": "2017/03/18 08:30 +0800",
+    "expire_time": "2017/03/18 17:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "kit",
+        "staff_query_used": true,
+        "unlock": true
+      },
+      {
+        "id": "day1lunch",
+        "disable_time": "2017/03/18 10:30 +0800",
+        "disable_message": "Too late to check-in",
+        "staff_query_disable_message": "Please use your badge",
+        "unlock": true
+      }
+    ],
+    "deliver_puzzle": 2
+  },
+  "kit": {
+    "order": 1,
+    "display_text": {
+      "en-US": "Welcome Kit",
+      "zh-TW": "小貓袋"
+    },
+    "available_time": "2017/03/18 08:30 +0800",
+    "expire_time": "2017/03/18 17:00 +0800",
+    "countdown": 30,
+    "lock_message": "Haven't Check-in",
+  },
+  "lunch": {
+    "order": 2,
+    "display_text": {
+      "en-US": "Lunch",
+      "zh-TW": "午餐"
+    },
+    "available_time": "2017/03/18 11:50 +0800",
+    "expire_time": "2017/03/18 14:00 +0800",
+    "countdown": 30,
+    "lock_message": "Haven't Check-in",
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
+      }
+    ]
+  },
+  "vipkit": {
+    "order": 3,
+    "display_text": {
+      "en-US": "Special Gift",
+      "zh-TW": "獨家紀念品"
+    },
+    "available_time": "2017/03/18 08:00 +0800",
+    "expire_time": "2017/03/18 17:00 +0800",
+    "countdown": 30,
+    "not_lock_rule": {
+      "row_name": "個人贊助",
+      "value_match": "Y",
+      "not_match_disable_message": "For Supporters Only"
+    }
+  }
+}
