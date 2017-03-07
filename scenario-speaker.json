@@ -19,7 +19,8 @@
         "staff_query_disable_message": "Please use your badge",
         "unlock": false
       }
-    ]
+    ],
+    "deliver_puzzle": 2
   },
   "speaker_packages": {
     "display_text": {
