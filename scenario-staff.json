@@ -9,10 +9,6 @@
 		"countdown": 0,
 		"related_scenario": [
 			{
-				"id": "order_goods",
-				"unlock": true
-			},
-			{
 				"id": "shirt_size",
 				"unlock": true
 			},
