@@ -17,7 +17,8 @@
         "id": "radios",
         "unlock": true
       }
-    ]
+    ],
+    "deliver_puzzle": 2
   },
   "order_goods": {
     "order": 1,
