@@ -10,10 +10,6 @@
     "countdown": 0,
     "related_scenario": [
       {
-        "id": "shirt_size",
-        "unlock": true
-      },
-      {
         "id": "radios",
         "unlock": true
       }
@@ -54,7 +50,6 @@
     "available_time": "2017/03/18 07:30 +0800",
     "expire_time": "2017/03/18 17:00 +0800",
     "countdown": 30,
-    "lock_message": "Haven't Check-in",
     "attr": [
       {
         "row_name": "shirt_size",
