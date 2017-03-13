@@ -22,7 +22,7 @@
       "en-US": "預購物資",
       "zh-TW": "預購物資"
     },
-    "available_time": "2017/03/18 07:30 +0800",
+    "available_time": "2017/03/17 15:00 +0800",
     "expire_time": "2017/03/18 17:00 +0800",
     "countdown": 60,
     "not_lock_rule": {
@@ -47,7 +47,7 @@
       "en-US": "工作人員衣服",
       "zh-TW": "工作人員衣服"
     },
-    "available_time": "2017/03/18 07:30 +0800",
+    "available_time": "2017/03/17 15:00 +0800",
     "expire_time": "2017/03/18 17:00 +0800",
     "countdown": 30,
     "attr": [
