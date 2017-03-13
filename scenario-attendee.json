@@ -69,6 +69,16 @@
       "row_name": "個人贊助",
       "value_match": "Y",
       "not_match_disable_message": "For Supporters Only"
-    }
+    },
+    "attr": [
+      {
+        "row_name": "pillow",
+        "attr_name": "pillow"
+      },
+      {
+        "row_name": "shirt_size",
+        "attr_name": "shirt_size"
+      }
+    ]
   }
 }
